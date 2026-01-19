@@ -10,6 +10,9 @@ dependencies = [
     "beautifulsoup4>=4.11.0",
     "lxml>=4.9.0",
     "webdriver-manager>=3.8.0",
+    "volcengine-python-sdk[ark]>=5.0.6",
+    "openai>=2.2.0",
+    "dotenv>=0.9.9",
 ]
 
 [project.optional-dependencies]
@@ -19,3 +22,7 @@ dev = [
     "flake8>=5.0.0",
 ]
 
+
+[[tool.uv.index]]
+url = "http://mirrors.aliyun.com/pypi/simple"
+default = true
